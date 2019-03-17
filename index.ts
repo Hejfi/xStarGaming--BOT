@@ -1,6 +1,6 @@
 import * as Discord from "discord.js";
-import * as ConfigFile from "./src/config";
-import { IBotCommand } from "./src/api";
+import * as ConfigFile from "./config";
+import { IBotCommand } from "./api";
 
 const client: Discord.Client = new Discord.Client();
 
